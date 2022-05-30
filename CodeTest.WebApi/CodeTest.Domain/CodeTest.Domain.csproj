@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Commands\" />
+    <None Remove="Entities\" />
+    <None Remove="Handlers\" />
+    <None Remove="Queries\" />
+    <None Remove="Repository\" />
+    <None Remove="Handlers\Query\" />
+    <None Remove="Handlers\Command\" />
+    <None Remove="QueryBase\" />
+    <None Remove="ExceptionHandling\" />
+    <None Remove="Contract\" />
+    <None Remove="Contract\Request\" />
+    <None Remove="Contract\Response\" />
+    <None Remove="MediatR" />
+    <None Remove="Repository\Implementation\" />
+    <None Remove="Repository\Interface\" />
+    <None Remove="log4net" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Commands\" />
+    <Folder Include="Entities\" />
+    <Folder Include="Handlers\" />
+    <Folder Include="Queries\" />
+    <Folder Include="Repository\" />
+    <Folder Include="Handlers\Query\" />
+    <Folder Include="Handlers\Command\" />
+    <Folder Include="QueryBase\" />
+    <Folder Include="ExceptionHandling\" />
+    <Folder Include="Contract\" />
+    <Folder Include="Contract\Request\" />
+    <Folder Include="Contract\Response\" />
+    <Folder Include="Repository\Implementation\" />
+    <Folder Include="Repository\Interface\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="log4net" Version="2.0.14" />
+  </ItemGroup>
+</Project>
